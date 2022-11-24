@@ -1,6 +1,5 @@
 import './App.css';
-import  { ByeWorld }  from './companents/HelloWorld';
-import  { HelloWorld }  from './companents/HelloWorld';
+import  { ByeWorld,HelloWorld}  from './companents/HelloWorld';
 function App() {
   return (
     <div className="App">
