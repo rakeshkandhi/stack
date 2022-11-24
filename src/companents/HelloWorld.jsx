@@ -1,10 +1,10 @@
-export function HelloWorld(){
+export function HelloWorld(props){
     return (
-        <h3>Container jsx</h3>
+        <h3>{props.text}</h3>
     )
 }
-export function ByeWorld(){
+export function ByeWorld(props){
     return (
-        <h3>Bye World</h3>
+        <h3>{props.text}</h3>
     )
 }

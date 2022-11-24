@@ -5,8 +5,8 @@ function App() {
     <div className="App">
       <h1>Hello World </h1>
       <h2></h2>
-      <HelloWorld />
-      <ByeWorld />
+      <HelloWorld text="This is Hello world " />
+      <ByeWorld text="This is bye world "/>
     </div>
   );
 }
